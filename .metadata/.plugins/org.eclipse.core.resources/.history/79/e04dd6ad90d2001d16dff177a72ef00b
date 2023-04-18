@@ -1,0 +1,22 @@
+package com.multi.ex01.basic_thread;
+
+
+// 1초씩 셀수 있는 Thread
+public class MyThread extends Thread{
+	private int count = 0;
+	
+	public MyThread(String name) {
+		super(name);
+	}
+	
+	// thread 로직을 포함하는 메소드 -> 호출하면 Thread로 실행되지 않음!!!
+	@Override
+	public void run() {
+		while(true) {
+			System.out.println(count +"초 입니다." + getName());
+			count++;
+			Thread.sleep(1000);
+		}
+		
+	}
+}

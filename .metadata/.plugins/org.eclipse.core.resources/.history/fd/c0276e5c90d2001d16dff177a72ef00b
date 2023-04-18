@@ -1,0 +1,7 @@
+package com.multi.ex01.basic_thread;
+
+
+// 1초씩 샐수 있는 Thread
+public class MyThread extends Thread{
+
+}

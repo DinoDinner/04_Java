@@ -1,0 +1,7 @@
+package com.multi.poly.model.vo;
+
+public class AniBook {
+
+	private int accessAge; // 제한 나이
+
+}

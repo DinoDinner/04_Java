@@ -1,0 +1,9 @@
+package com.multi.ex01.generic;
+
+public class GenericBasic {
+	public static void main(String[] args) {
+		// Type을 정하지 않고 Object 배열 선언하는 경우의 문제점
+		
+		
+	}
+}

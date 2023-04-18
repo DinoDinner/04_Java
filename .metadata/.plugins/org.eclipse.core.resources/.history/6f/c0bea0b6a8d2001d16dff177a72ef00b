@@ -1,0 +1,48 @@
+package com.multi.ex02.collections_list;
+
+public class ListBasic {
+//	ArrayList - ★★★★★ 추천
+//	 -> 주로 ArrayList '만' 사용하는데, 이유는 DB에서 데이터를 담고 탐색 용도로 많이 활용함
+//	- 장점 : 탐색속도가 빠르고, 메모리를 적게 차지한다. 
+//	- 단점 : 삽입, 삭제, 수정이 느리다. 
+
+//	LinkedList
+//	 -> 삽입 삭제가 빈번하지 않으면 사용하지 않음. -> 이럴 경우가 많이 없거나 다른 컬랙션(Map)을 사용함
+//	- 장점 : 삽입, 삭제, 수정이 빠르다.
+//	- 단점 : 탐색속도가 느리고, 메모리를 많이 차지한다.
+
+//	Vector
+//	-> Thread safe 할때 사용하나 더 좋은 컬랙션이 많다. 잘 안쓴다.
+	
+	public static void main(String[] args) {
+		// 객체배열 문법
+		User1[] userArray = new User1[3];
+		userArray[0] = new User1("testID1", "김길동", 23, 60000.212);
+		userArray[0] = new User1("testID2", "홍길동", 32, 53123.233);
+		userArray[0] = new User1("testID3", "박길동", 25, 41212.322);
+		
+		
+		
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

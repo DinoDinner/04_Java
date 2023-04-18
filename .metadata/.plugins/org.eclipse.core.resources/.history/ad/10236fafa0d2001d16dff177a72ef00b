@@ -1,0 +1,14 @@
+package com.multi.ex01.generic;
+
+import java.util.Date;
+
+public class GenericBasic {
+	public static void main(String[] args) {
+		// Type을 정하지 않고 Object 배열 선언하는 경우의 문제점
+		// 1. 지정된 Type이 아닌 다른 Type에 대한 Check가 항상 필요했다. instanceof
+	
+		Object[] array = new Object[10];
+		array[0] = "홍길동";
+		array[1] = new Date();
+	}
+}

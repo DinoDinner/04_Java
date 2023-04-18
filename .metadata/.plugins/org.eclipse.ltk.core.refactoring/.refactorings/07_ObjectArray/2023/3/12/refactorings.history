@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;UserVO&apos; to &apos;MemberVO&apos;&#x0D;&#x0A;- Original project: &apos;07_ObjectArray&apos;&#x0D;&#x0A;- Original element: &apos;UserVO&apos;&#x0D;&#x0A;- Renamed element: &apos;MemberVO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UserVO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{UserVO.java[UserVO" matchStrategy="1" name="MemberVO" qualified="false" references="true" similarDeclarations="false" stamp="1679450746274" textual="false" version="1.0"/>
+</session>

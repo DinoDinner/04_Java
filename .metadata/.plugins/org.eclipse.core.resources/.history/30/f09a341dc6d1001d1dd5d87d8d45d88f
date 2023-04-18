@@ -1,0 +1,65 @@
+package com.multi.hw.member.view;
+
+import java.util.Scanner;
+
+import com.multi.hw.member.controller.MemberController;
+
+public class MemberMenu {
+	// Responsibility Scope : 객체의 역할과 기능으로써 책임져야 하는 범위
+	
+	// View의 책임 범위 (Responsibility Scope)
+	// - 사용자로 부터 (G/C) UI를 제공하고 입력과 이벤트를 Controller에서 전달하고,
+	//   처리 결과를 사용자에게 전달하는 역할
+	// - View가 할수 있을 일 : UI제공, 사용자의 입력이 올바른지 확인하는 것 ex) ID가 영문인지, PW 자리수..
+	// - View가 하면 안되는 일 : ID의 중복확인, ID/PW로 로그인이 가능한지 확인하는 일
+	//                        -> Controller와 Model에서 확인해야하는 일
+	
+	private Scanner sc = new Scanner(System.in);
+	private MemberController mc = new MemberController();
+
+	public MemberMenu() {
+	}
+
+	public void mainMenu() {
+	}
+
+	public void insertMember() {
+	}
+
+	public void searchMember() {
+	}
+
+	public void searchId() {
+	}
+
+	public void searchName() {
+	}
+
+	public void searchEmail() {
+	}
+
+	public void updateMember() {
+	}
+
+	public void updatePassword() {
+	}
+
+	public void updateName() {
+	}
+
+	public void updateEmail() {
+	}
+
+	public void deleteMember() {
+	}
+
+	public void deleteOne() {
+	}
+
+	public void deleteAll() {
+	}
+
+	public void printAll() {
+	}
+
+}

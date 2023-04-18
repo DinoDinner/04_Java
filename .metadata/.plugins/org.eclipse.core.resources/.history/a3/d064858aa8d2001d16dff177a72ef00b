@@ -1,0 +1,12 @@
+package com.multi.ex02.collections_list;
+
+public class User1 {
+	private String id;
+	private String name;
+	private int age;
+	private double account; // 계좌 잔액
+
+	
+	
+
+}

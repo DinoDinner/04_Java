@@ -1,0 +1,9 @@
+package com.multi.poly.model.vo;
+
+public class Book {
+
+	private String title; // 도서명
+	private String author; // 저자명
+	private String publisher; // 출판사명
+
+}

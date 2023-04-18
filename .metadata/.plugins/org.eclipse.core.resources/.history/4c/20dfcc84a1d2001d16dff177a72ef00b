@@ -1,0 +1,6 @@
+package com.multi.ex01.generic;
+
+// 제네릭 기반의 배열 Class
+public class MyGenericArray <T> {
+	// 제네릭이란? Type을 사용자가 외부에서 주입 시켜 정의하는 문법
+}

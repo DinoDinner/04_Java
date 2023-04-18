@@ -1,0 +1,8 @@
+package com.multi.ex01.basic_thread;
+
+public class BasicThread {
+	public static void main(String[] args) {
+		// 1초를 샐수 있는 프로그램
+		
+	}
+}

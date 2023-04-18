@@ -1,0 +1,54 @@
+package com.multi.ex02.collections_list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListBasic2 {
+
+	public static void main(String[] args) {
+		// 데이터 생성 및 삽입하는 방법
+		ArrayList<User1> list = new ArrayList<>();
+		
+		// 데이터 add 하는 방법
+		list.add(new User1("TestID3", "홍길순3", 44, 11110.1));
+		list.add(new User1("TestID4", "홍길순4", 21, 143.1));
+		list.add(new User1("TestID2", "홍길순2", 22, 100.1));
+		list.add(new User1("TestID5", "최길순", 32, 4400.1));
+		list.add(new User1("TestID6", "홍길순", 28, 10550.1));
+		list.add(new User1("TestID7", "홍길순", 21, 10550.1));
+		list.add(new User1("TestID8", "홍길순", 25, 10550.1));
+		list.add(new User1("TestID1", "김길순", 25, 10550.1));
+		print(list);
+		
+		// 특정 index에 데이터를 삽입하는 방법
+		list.add(0, new User1("TestID9", "홍길순9", 240, 234723));
+		print(list);
+		
+		// 크기 확인하는 법
+		System.out.println(list.size());
+		System.out.println("-------------------------------------------------------\n");
+		
+		// 원하는 index의 값 가져오기
+		User1 user = list.get(3);
+		System.out.println(user);
+		System.out.println(list.get(3));
+		System.out.println(list.get(3).getName());
+		System.out.println("-------------------------------------------------------\n");
+
+		// 특정 객체가 List에 있는지 확인하는 방법
+		// -- 잘 안쓴다.
+		
+	}
+	
+	public static void print(List<User1> list) {
+		for(User1 item : list) {
+			System.out.println(item);
+		}
+		System.out.println("-------------------------------------------------------\n");
+	}
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+package com.multi.ex02.collections_list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListBasic2 {
+
+	public static void main(String[] args) {
+		// 데이터 생성 및 삽입하는 방법
+		ArrayList<User1> list = new ArrayList<>();
+		
+		// 데이터 add 하는 방법
+		list.add(new User1("TestID3", "홍길순3", 44, 11110.1));
+		list.add(new User1("TestID4", "홍길순4", 21, 143.1));
+		list.add(new User1("TestID2", "홍길순2", 22, 100.1));
+		list.add(new User1("TestID5", "최길순", 32, 4400.1));
+		list.add(new User1("TestID6", "홍길순", 28, 10550.1));
+		list.add(new User1("TestID7", "홍길순", 21, 10550.1));
+		list.add(new User1("TestID8", "홍길순", 25, 10550.1));
+		list.add(new User1("TestID1", "김길순", 25, 10550.1));
+		print(list);
+		
+
+	}
+	
+	public static void print(List<User1> list) {
+		for(User1 item : list) {
+			System.out.println(item);
+		}
+		System.out.println("--------------------------------------\n");
+	}
+}
+
+
+
+
+

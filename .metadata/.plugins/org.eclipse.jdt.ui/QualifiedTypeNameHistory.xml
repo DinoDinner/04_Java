@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="OperatorPractice"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.multi.ex02.object.Person"/>
+    <fullyQualifiedTypeName name="com.multi.ex02.object.PersonVO"/>
+    <fullyQualifiedTypeName name="com.multi.ex04.access_modifier.AccessModifier"/>
+    <fullyQualifiedTypeName name="com.multi.ex05.method_test.MyObject"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="com.multi.practice1.model.vo.Product"/>
+    <fullyQualifiedTypeName name="com.multi.practice2.model.vo.Book"/>
+    <fullyQualifiedTypeName name="com.multi.practice3.model.vo.Employee"/>
+    <fullyQualifiedTypeName name="com.multi.practice3.model.vo.Employee2"/>
+    <fullyQualifiedTypeName name="MemberVO"/>
+    <fullyQualifiedTypeName name="com.multi.ex03.overriding_test.SuperClass"/>
+    <fullyQualifiedTypeName name="com.multi.ex02.test_inherit.SuperClass"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="com.multi.ex02.poly_example.Avante"/>
+    <fullyQualifiedTypeName name="com.multi.ex02.poly_example.Sonata"/>
+    <fullyQualifiedTypeName name="com.multi.ex02.poly_example.Grandeur"/>
+    <fullyQualifiedTypeName name="com.multi.ex02.poly_example.Bugatti"/>
+    <fullyQualifiedTypeName name="com.multi.ex04.poly_interface.ElectricType"/>
+    <fullyQualifiedTypeName name="com.multi.ex04.poly_interface.OverseasType"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.ZonedDateTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.time.ZoneId"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="com.multi.hw.member.controller.MemberController"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.multi.hw.member.model.vo.Member"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.multi.poly.model.vo.CookBook"/>
+    <fullyQualifiedTypeName name="com.multi.poly.model.vo.AniBook"/>
+</qualifiedTypeNameHistroy>

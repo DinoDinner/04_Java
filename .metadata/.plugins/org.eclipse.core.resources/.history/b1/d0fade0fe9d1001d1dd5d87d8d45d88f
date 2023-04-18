@@ -1,0 +1,8 @@
+package com.multi.poly.model.vo;
+
+import java.util.ArrayList;
+
+public class CookBook extends Book{
+	
+	
+}

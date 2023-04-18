@@ -1,0 +1,11 @@
+package com.multi.hw.member.model.vo;
+
+public class Member {
+	private String id;
+	private String name;
+	private String password;
+	private String email;
+	private char gender;
+	private int age;
+
+}

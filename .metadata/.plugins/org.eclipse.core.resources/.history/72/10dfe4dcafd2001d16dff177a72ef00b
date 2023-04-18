@@ -1,0 +1,15 @@
+package com.multi.ex02.collections_list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListBasic2 {
+
+	public static void main(String[] args) {
+		// 데이터 생성 및 삽입하는 방법
+		ArrayList<User1> list1 = new ArrayList<>();
+		
+		// 데이터 add 하는 방법
+		list1.add(new User1("testID3", "홍길동", 43, 12121));
+	}
+}

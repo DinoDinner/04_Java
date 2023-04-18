@@ -1,0 +1,28 @@
+package com.multi.hw.member.view;
+
+import java.util.Scanner;
+
+import com.multi.hw.member.controller.MemberController;
+
+public class MemberMenu {
+	private Scanner sc = new Scanner(System.in);
+	private MemberController mc = new MemberController();
+	
+	+ MemberMenu()
+	+ mainMenu() : void
+	+ insertMember() : void
+	+ searchMember() : void
+	+ searchId() : void
+	+ searchName() : void
+	+ searchEmail() : void
+	+ updateMember() : void
+	+ updatePassword() : void
+	+ updateName() : void
+	+ updateEmail() : void
+	+ deleteMember() : void
+	+ deleteOne() : void
+	+ deleteAll() : void
+	+ printAll() : void
+
+	
+}
